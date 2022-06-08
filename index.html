@@ -1,80 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>CV - Vitalii Siziakov</title>
-        <link rel="icon" href="/images/favicon.png">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <title>CV - Vitalii Siziakov</title>
+    <link rel="icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <body>
-        <header class="cvHeader">
+  <body>
+    <header class="cvHeader">
+      <img class="roundAvatar" src="images/avatar.jpg" alt="avatar" />
+      <h1>VITALII SIZIAKOV</h1>
+      <ul>
+        <li>Location: Saint Petersburg, Russian Federation</li>
+        <li>Date of birth: <time datetime="1996-01-25">25 January 1996</time></li>
+      </ul>
+    </header>
 
-        <img class="roundAvatar" src="images/avatar.jpg" alt="avatar">
-        <h1>VITALII SIZIAKOV</h1>
+    <main class="cvMain">
+      <section class="contacts">
+        <h2>CONTACTS</h2>
+        <hr class="delimiter" />
         <ul>
-            <li>Location: Saint Petersburg, Russian Federation</li>
-            <li>Date of birth: <time datetime="1996-01-25">25 January 1996</time></li>
+          <li>Telegram: <a href="https://t.me/vitalii_siziakov">@vitalii_siziakov</a></li>
+          <li>E-mail: <a href="mailto:vitalii.siziakov@gmail.com">vitalii.siziakov@gmail.com</a></li>
         </ul>
+      </section>
 
-        </header>
+      <section class="profile">
+        <h2>PROFILE</h2>
+        <hr class="delimiter" />
+        <p>
+          Dedicated to delivering effective solutions to all problems.<br />Committed to utilizing my skills to help
+          others.<br />Hardworking and ready to quick learn.
+        </p>
+      </section>
 
-        <main class="cvMain">
-            <section class="contacts">
-                <h2>CONTACTS</h2>
-                <hr class="delimiter">
-                    <ul>
-                        <li>Telegram: <a href="https://t.me/vitalii_siziakov">@vitalii_siziakov</a></li>
-                        <li>E-mail: <a href="mailto:vitalii.siziakov@gmail.com">vitalii.siziakov@gmail.com</a></li>
-                    </ul>
-            </section>
+      <section class="skills">
+        <h2>SKILLS</h2>
+        <hr class="delimiter" />
+        <ul>
+          <li>HTML: Beginner</li>
+          <li>CSS: Beginner</li>
+          <li>JavaScript: Beginner</li>
+          <li>PHP: Novice</li>
+          <li>Git: Novice</li>
+        </ul>
+      </section>
 
-            <section class="profile">
-                <h2>PROFILE</h2>
-                <hr class="delimiter">
-                <p>Dedicated to delivering effective solutions to all problems.<br>Committed to utilizing my skills to help others.<br>Hardworking and ready to quick learn.</p>
-            </section>
-            
-            <section class="skills">
-                <h2>SKILLS</h2>
-                <hr class="delimiter">
-                <ul>
-                    <li>HTML: Beginner</li>
-                    <li>CSS: Beginner</li>
-                    <li>JavaScript: Beginner</li>
-                    <li>PHP: Novice</li>
-                    <li>Git: Novice</li>
-                </ul>
-            </section>
+      <section class="education">
+        <h2>EDUCATION</h2>
+        <hr class="delimiter" />
+        <ul>
+          <li>
+            Bachelor of History at Institute of History, Saint Petersburg State University<br />
+            (<time datetime="2013-09">September 2013</time> - <time datetime="2017-06">June 2017</time>
+          </li>
+        </ul>
+      </section>
 
-            <section class="education">
-                <h2>EDUCATION</h2>
-                <hr class="delimiter">
-                <ul>
-                    <li>Bachelor of History at Institute of History, Saint Petersburg State University<br>
-                        (<time datetime="2013-09">September 2013</time> - <time datetime="2017-06">June 2017</time></li>
-                </ul>
-            </section>
+      <section class="courses">
+        <h2>COURSES</h2>
+        <hr class="delimiter" />
+        <ul>
+          <li>
+            JavaScript. Professional Development of Web Interfaces at HTML Academy<br />
+            (<time datetime="2020-05">May 2020</time> - <time datetime="2020-07">July 2020</time>)
+          </li>
+          <li>
+            Learn Asynchronous JavaScript at Codecademy<br />
+            (<time datetime="2020-12">December 2020</time>)
+          </li>
+        </ul>
+      </section>
 
-            <section class="courses">
-                <h2>COURSES</h2>
-                <hr class="delimiter">
-                <ul>
-                    <li>JavaScript. Professional Development of Web Interfaces at HTML Academy<br>
-                        (<time datetime="2020-05">May 2020</time> - <time datetime="2020-07">July 2020</time>)
-                    </li>
-                    <li>Learn Asynchronous JavaScript at Codecademy<br>
-                        (<time datetime="2020-12">December 2020</time>)
-                    </li>
-                </ul>
-            </section>
-
-            <section class="codeExamples">
-                <h2>CODE EXAMPLES</h2>
-                <hr class="delimiter">
-                <ul>
-                    <li>Create readble date (today)
-                        <pre>
+      <section class="codeExamples">
+        <h2>CODE EXAMPLES</h2>
+        <hr class="delimiter" />
+        <ul>
+          <li>
+            Create readble date (today)
+            <pre>
                             <code>
 function createReadbleDateToday () {
     let dateToday = new Date();
@@ -95,9 +101,10 @@ function createReadbleDateToday () {
 };                
                             </code>
                         </pre>
-                    </li>
-                    <li>Convert number to number string with delimiters (spaces)
-                        <pre>
+          </li>
+          <li>
+            Convert number to number string with delimiters (spaces)
+            <pre>
                             <code>
 function convertToNumberStringWithSpaces (numberWithoutSpaces) {
     if (numberWithoutSpaces === "") {
@@ -132,49 +139,50 @@ function convertToNumberStringWithSpaces (numberWithoutSpaces) {
 };                  
                             </code>
                         </pre>
-                    </li>
-                </ul>
-            </section>
- 
-            <section class="educationalProjects">
-                <h2>EDUCATIONAL PROJECTS</h2>
-                <hr class="delimiter">
-                    <ul>
-                        <li><a href="https://github.com/vitalii-siziakov/1217747-keksobooking-20">Keksobooking</a></li>
-                        <li><a href="https://github.com/vitalii-siziakov/1217747-code-and-magick-20">Code and Magic</a></li>
-                    </ul>
-            </section>
+          </li>
+        </ul>
+      </section>
 
-          
-            <section class="employmentHistory">
-                <h2>EMPLOYMENT HISTORY</h2>
-                <hr class="delimiter">
-                    <ul>
-                        <li>Specialist of the production and technical department at construction company NordInvest, LLC - Saint Petersburg, Russian Federation<br>
-                            (<time datetime="2016-03">Mart 2016</time> - <time datetime="2018-01">January 2018</time>)
-                        </li>
-                        <li>Car sales manager at Avtocentr, LLC - Saint Petersburg, Russian Federation<br>
-                            (<time datetime="2018-01">January 2018</time> - <time datetime="2022">Present</time>)
-                        </li>
-                    </ul>
-            </section>
-        
-            <section class="employmentHistory">
-                <h2>LANGUAGES</h2>
-                <hr class="delimiter">
-                    <ul>
-                        <li>Russian: Native speaker</li>
-                        <li>English: A2</li>
-                    </ul>
-            </section>
+      <section class="educationalProjects">
+        <h2>EDUCATIONAL PROJECTS</h2>
+        <hr class="delimiter" />
+        <ul>
+          <li><a href="https://github.com/vitalii-siziakov/1217747-keksobooking-20">Keksobooking</a></li>
+          <li><a href="https://github.com/vitalii-siziakov/1217747-code-and-magick-20">Code and Magic</a></li>
+        </ul>
+      </section>
 
-        </main>
+      <section class="employmentHistory">
+        <h2>EMPLOYMENT HISTORY</h2>
+        <hr class="delimiter" />
+        <ul>
+          <li>
+            Specialist of the production and technical department at construction company NordInvest, LLC - Saint
+            Petersburg, Russian Federation<br />
+            (<time datetime="2016-03">Mart 2016</time> - <time datetime="2018-01">January 2018</time>)
+          </li>
+          <li>
+            Car sales manager at Avtocentr, LLC - Saint Petersburg, Russian Federation<br />
+            (<time datetime="2018-01">January 2018</time> - <time datetime="2022">Present</time>)
+          </li>
+        </ul>
+      </section>
 
-        <footer class="cvFooter">
-            <a href="https://rs.school/js/"><img class="rsSchoolLogo" src="images/rs_school_js.svg" alt="RS School Logo"></a>
-            <p>rsschool-cv, <time datetime="2022">2022</time></p>
-        </footer>
-    
-    </body>
+      <section class="employmentHistory">
+        <h2>LANGUAGES</h2>
+        <hr class="delimiter" />
+        <ul>
+          <li>Russian: Native speaker</li>
+          <li>English: A2</li>
+        </ul>
+      </section>
+    </main>
 
+    <footer class="cvFooter">
+      <a href="https://rs.school/js/"
+        ><img class="rsSchoolLogo" src="images/rs_school_js.svg" alt="RS School Logo"
+      /></a>
+      <p>rsschool-cv, <time datetime="2022">2022</time></p>
+    </footer>
+  </body>
 </html>
