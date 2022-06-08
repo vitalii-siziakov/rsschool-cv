@@ -1,0 +1,16 @@
+header, section, footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.roundAvatar {
+    border-radius: 100%;
+    border: 2px solid gray;
+    width: 20%;
+}
+
+.rsSchoolLogo {
+    border: 2px solid gray;
+    width: 20%;
+}
